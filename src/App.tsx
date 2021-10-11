@@ -9,6 +9,7 @@ const App = () =>  {
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
+    // eslint-disable-next-line
   }, []);
 
   const handleKeyDown = (e:KeyboardEvent)=>{
